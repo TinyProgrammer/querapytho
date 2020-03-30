@@ -14,5 +14,3 @@ def comb(n,k):
     ans=fac(n) // ( fac(k) * fac(n-k) )
     return ans
     pass
-
-print(comb(10,0))
