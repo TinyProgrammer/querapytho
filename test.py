@@ -1,12 +1,4 @@
-# list=['Mohammad',2,1,5,'is changed']
-# for i,it  in enumerate(list) :
-#     print(i+1,'line of the list is : ',it)
-
-print('test zip abaility in python for loop :')
-
-lista=[1,2,3,4,5]
-listb=['a','b','c','d','e']
-listc=['I','II','III','IV','V']
-
-for a,b,c,d in zip(lista,listb,listc,range(2)):
-    print('{}th alphabet or {} in greece is : {}'.format(a,c,d))
+sq=[i*i for i in range(10)]
+print(sq)
+sq2=["({} , {})".format(i,j) for i in range(10) for j in range(0,10,2) if i*j%4 is not 0 ]
+print("\n".join(sq2))
