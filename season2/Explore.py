@@ -5,8 +5,6 @@ def explore(pf,add):
     tmp = list(tmp)
     ls={}
 
-    print(pf)
-
     for i in tmp:
         c=0
         for j in i[2]:
@@ -17,6 +15,4 @@ def explore(pf,add):
         c=0
     return ls 
     pass
-
-print(explore('py','.'))
 
